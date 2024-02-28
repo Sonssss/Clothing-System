@@ -37,7 +37,18 @@ body{
     border-radius: 10px;
     padding: 0.5rem;
 }
+img:hover {
+    box-shadow: 0 0 2px 1px rgb(205, 203, 203);
+    color: rgb(198, 198, 198);
+  }
 
+  .secondary-button{
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    padding: 0.3rem;
+    
+  }
 
 /* navigation */
 .navigation{
@@ -79,9 +90,7 @@ li a{
     margin: 0.5rem;
 }
 
-.heading-2{
-    
-}
+
 .heading-para{
     font-size: larger;
     margin-top: 2rem;
@@ -89,6 +98,7 @@ li a{
 
 .main-header{
     margin-top: 2rem;
+    text-align: center;
 }
 .up-header{
     display: flex;
@@ -97,4 +107,98 @@ li a{
     flex-direction: column;
     flex-wrap: nowrap;
 }
+
+/* #content1::after{
+    content: "\a";
+    white-space: inherit;
+} */
+.heading-para{
+    justify-content: center;
+    align-items: center;
+}
+
+/* section-1 */
+.main-section{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.section-1 img{
+    width:15rem;   
+    border-radius: 3px;
+}
+.section-2 img{
+    width:15rem;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+    
+}
+.section-3 img{
+    width:15rem;
+    border-radius: 3px;
+}
+
+/* section-1 */
+.section-2{
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+.section-2-heading{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    
+}
+.section-2-para{
+    text-align: center;
+}
+#first-h1{
+    border-left: 3px solid orange;
+    padding-left: 1rem; 
+    margin: 0.5rem;
+}
+#first-h2{
+    
+    padding-left: 1rem; 
+    margin: 0.5rem;
+}
+
+.secondary-button {
+    margin-top: 1.5rem;
+}
+
+/* main section */
+.main-section{
+    padding-top: 3rem;
+}
+
+.div-img img{
+    width: 10rem;
+    height: 18rem;
+}
+
+/* offer section */
+.offer-section{
+    margin-top: 4rem;
+}
+.desciption{
+    text-align: center;
+}
+.desciption p{
+    font-size: 25px;
+}
+
+.offer-img img{
+    margin-top: 2rem;
+    width: 20rem;
+    height: 28rem;
+}
+.offer-images-main{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+
 
