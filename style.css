@@ -44,7 +44,7 @@ img:hover {
 
   .secondary-button{
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 5px;
     position: absolute;
     padding: 0.3rem;
     
@@ -121,8 +121,8 @@ li a{
 .main-section{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 3rem;
-    margin-top: 5rem;
 }
 .section-1 img{
     width:15rem;   
@@ -130,8 +130,8 @@ li a{
 }
 .section-2 img{
     width:15rem;
-    margin-top: 0.5rem;
     border-radius: 3px;
+    height: 20rem;
     
 }
 .section-3 img{
@@ -141,31 +141,50 @@ li a{
 
 /* section-1 */
 .section-2{
+    display: flex;
     justify-content: space-around;
-    margin-top: 5rem;
 }
 .section-2-heading{
     font-family: "DM Serif Display", serif;
     font-size: 1.3rem;
     
 }
+.section-body {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+
+
+}
 .section-2-para{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.section-2-para p{
+    margin-top: 3rem;
 }
 #first-h1{
     border-left: 3px solid orange;
     padding-left: 1rem; 
     margin: 0.5rem;
 }
+.button{
+    margin-top: 1rem;
+    border: 1px solid gray;
+    padding: .5rem;
+    border-radius: 10px;
+
+}
+
 #first-h2{
     
     padding-left: 1rem; 
     margin: 0.5rem;
 }
 
-.secondary-button {
-    margin-top: 1.5rem;
-}
+
 
 /* main section */
 .main-section{
@@ -190,8 +209,9 @@ li a{
 
 .offer-img img{
     margin-top: 2rem;
-    width: 20rem;
-    height: 28rem;
+    width: 24rem;
+    height: 34rem;
+    border-radius: 3px;
 }
 .offer-images-main{
     display: flex;
@@ -201,4 +221,25 @@ li a{
 }
 
 
+ /* summeer-offer-section  */
+ .discount{
+    /* top: 0px;
+    right: 0px; */
+    border: 1px solid orange;
+    position: absolute;
+    color: white;
+    background-color: orange;
+    width: 12%;
+    border-radius: 4px;
+ }
 
+ .summer-collection img{
+    
+    width: 50%;
+ }
+
+ .summer-collection{
+    margin-top: 3rem;
+    
+    
+ }
